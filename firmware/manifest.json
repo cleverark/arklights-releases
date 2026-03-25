@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.4.2",
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.4.2/arklights-v0.4.2.bin",
-  "file_size": 1610432,
-  "release_notes": "OTA effect updates",
+  "latest_version": "0.5.0",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.5.0/arklights-v0.5.0.bin",
+  "file_size": 1610592,
+  "release_notes": "adding calibration visuals",
   "min_app_version": "1.0.0",
-  "build_date": "2026-03-24T07:16:38Z"
+  "build_date": "2026-03-25T04:35:51Z"
 }
