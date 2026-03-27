@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.6.1",
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.6.1/arklights-v0.6.1.bin",
-  "file_size": 1618752,
+  "latest_version": "0.6.3",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.6.3/arklights-v0.6.3.bin",
+  "file_size": 1618800,
   "release_notes": "Bug fixes and improvements",
   "min_app_version": "1.0.0",
-  "build_date": "2026-03-27T00:06:06Z"
+  "build_date": "2026-03-27T00:46:15Z"
 }
