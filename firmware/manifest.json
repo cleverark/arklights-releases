@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.7.0",
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.7.0/arklights-v0.7.0.bin",
+  "latest_version": "0.8.0",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.8.0/arklights-v0.8.0.bin",
   "file_size": 1651776,
-  "release_notes": "adding bluetooth remote and updating motion detection logic",
+  "release_notes": "adding BLE OTA update",
   "min_app_version": "1.0.0",
-  "build_date": "2026-03-28T00:13:15Z"
+  "build_date": "2026-03-28T05:33:04Z"
 }
