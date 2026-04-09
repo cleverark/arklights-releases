@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.10.0",
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.10.0/arklights-v0.10.0.bin",
-  "file_size": 1278592,
-  "release_notes": "Initial music release",
+  "latest_version": "0.10.1",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.10.1/arklights-v0.10.1.bin",
+  "file_size": 1278720,
+  "release_notes": "fixing dynamic ap name and music sync",
   "min_app_version": "1.0.0",
-  "build_date": "2026-04-09T06:55:20Z"
+  "build_date": "2026-04-09T07:15:03Z"
 }
