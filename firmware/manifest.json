@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.10.5",
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.10.5/arklights-v0.10.5.bin",
-  "file_size": 1281200,
-  "release_notes": "Fixing some sync logic for smoother group sync",
+  "latest_version": "0.10.6",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v0.10.6/arklights-v0.10.6.bin",
+  "file_size": 1281408,
+  "release_notes": "fixing a bug with reverse installed leds and group sync",
   "min_app_version": "1.0.0",
-  "build_date": "2026-04-10T17:13:12Z"
+  "build_date": "2026-04-12T09:08:10Z"
 }
