@@ -5,7 +5,7 @@
   "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.1/arklights-v1.0.1.bin",
   "file_size": 1514080,
   "sha256": "b1fd7f4d5bd08d5f58e3123aec7918566ab581f2479871fd5d614b885c28cdd7",
-  "release_notes": "- feat(app): deep link from Park Mode toggle to its Settings section\n- feat(site): link the live App Store listing\n- fix(app): stop the sync age pushing Disconnect off the settings screen\n- fix: pre-release review findings\n- fix(app): first sync failed on newer iPhones — one timeout for two waits\n- fix(ota): survive the weak BLE link a sealed-in controller actually has\n- perf(app): size BLE writes and OTA chunks from the negotiated link\n- fix(site): cap OTA chunk to what the BLE link can drain\n- fix(motion): use declared axes for lean before the rest baseline is captured\n- fix(ci): stop the changelog fallback leaking unreleased-integration detail",
+  "release_notes": "- Bluetooth firmware updates now complete over the weaker link a controller has when sealed inside the footpad, instead of dropping partway through\n- First sync with newer iPhones is faster and more reliable: larger Bluetooth packets, a deeper send buffer, and connection timing iOS accepts\n- Turn signals now show true amber instead of a yellow that washed toward white at high brightness",
   "min_app_version": "1.0.0",
   "build_date": "2026-10-25T19:11:06Z"
 }
