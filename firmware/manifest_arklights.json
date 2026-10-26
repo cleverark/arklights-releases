@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.0.1",
+  "latest_version": "1.0.2",
   "board_name": "arklights",
   "board_id": 1,
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.1/arklights-v1.0.1.bin",
-  "file_size": 1514080,
-  "sha256": "b1fd7f4d5bd08d5f58e3123aec7918566ab581f2479871fd5d614b885c28cdd7",
-  "release_notes": "- Bluetooth firmware updates now complete over the weaker link a controller has when sealed inside the footpad, instead of dropping partway through\n- First sync with newer iPhones is faster and more reliable: larger Bluetooth packets, a deeper send buffer, and connection timing iOS accepts\n- Turn signals now show true amber instead of a yellow that washed toward white at high brightness",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.2/arklights-v1.0.2.bin",
+  "file_size": 1290816,
+  "sha256": "36ed07f6e1fb1c410789f8850784024304504d7212463621f78fad4a9509593c",
+  "release_notes": "\n- Restores the LED driver used by v1.0.0 and earlier builds. v1.0.1 was built against a newer version of the LED library, which could leave lights stuck on white and the Bluetooth connection unstable. If you are on v1.0.1, update to this release.",
   "min_app_version": "1.0.0",
-  "build_date": "2026-10-25T19:11:06Z"
+  "build_date": "2026-10-26T00:33:27Z"
 }
