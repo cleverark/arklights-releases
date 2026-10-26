@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.0.2",
+  "latest_version": "1.0.3",
   "board_name": "arklights",
   "board_id": 1,
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.2/arklights-v1.0.2.bin",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.3/arklights-v1.0.3.bin",
   "file_size": 1290816,
-  "sha256": "36ed07f6e1fb1c410789f8850784024304504d7212463621f78fad4a9509593c",
-  "release_notes": "\n- Restores the LED driver used by v1.0.0 and earlier builds. v1.0.1 was built against a newer version of the LED library, which could leave lights stuck on white and the Bluetooth connection unstable. If you are on v1.0.1, update to this release.",
+  "sha256": "a947a40ea4c8a3470a3e4d9e6469c654eae7e8fac263e49b7ca94cd6c9292110",
+  "release_notes": "\n- Group sync now stays in step when boards are parked, braking or blinking. Previously a board sitting still could stop following the group after a minute or so until it was power-cycled.\n- Changes made in the app while the group's lead board is parked now reach the rest of the group.\n- Brake lights, turn signals and park mode still take over the lights while active; when they end, the board shows the group's current look.",
   "min_app_version": "1.0.0",
-  "build_date": "2026-10-26T00:33:27Z"
+  "build_date": "2026-10-26T04:39:24Z"
 }
