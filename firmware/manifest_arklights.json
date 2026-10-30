@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.0.3",
+  "latest_version": "1.0.4",
   "board_name": "arklights",
   "board_id": 1,
-  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.3/arklights-v1.0.3.bin",
-  "file_size": 1290816,
-  "sha256": "a947a40ea4c8a3470a3e4d9e6469c654eae7e8fac263e49b7ca94cd6c9292110",
-  "release_notes": "\n- Group sync now stays in step when boards are parked, braking or blinking. Previously a board sitting still could stop following the group after a minute or so until it was power-cycled.\n- Changes made in the app while the group's lead board is parked now reach the rest of the group.\n- Brake lights, turn signals and park mode still take over the lights while active; when they end, the board shows the group's current look.",
+  "download_url": "https://github.com/cleverark/arklights-releases/releases/download/v1.0.4/arklights-v1.0.4.bin",
+  "file_size": 1293120,
+  "sha256": "e689753d58ef974b76af1e460366ba33cd936eb91a222a368d9354ebc07af9da",
+  "release_notes": "\n- Group sync now covers park mode: when you stop, every board in the group shows the leader's park look (effect, colors, speed and brightness). Your board still parks on its own, based on its own motion.\n- The headlight follows the leader's park look only if headlight sync is on for your board.\n- New \"Sync park mode with group\" setting (on by default) in the Group Sync screen of app 1.0.3 or newer. Turn it off to keep your own park look while riding with a group. Your own park settings are kept either way.\n- Fixed: a board slightly ahead of the group at slow effect speeds could jump forward in its animation instead of easing back into step.\n- Every board in the group needs 1.0.4 for park sync; boards on older firmware still sync normally while riding.",
   "min_app_version": "1.0.0",
-  "build_date": "2026-10-26T04:39:24Z"
+  "build_date": "2026-10-30T07:54:21Z"
 }
